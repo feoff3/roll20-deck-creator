@@ -2,7 +2,7 @@
 
 # Roll20 Deck Creator
 
-Roll20 Deck Creator is a small JavaScript browser extension that automates creation of card decks in Roll20 app.
+Roll20 Deck Creator is a small JavaScript browser extension that automates creation of card decks in Roll20 app (as of July 2017).
 
 Roll20 Deck Creator automatically fills an existing deck with new cards. Images of these new cards are imported from My Library. Deck cards are created automatically with no need to create and upload every single card.
 
