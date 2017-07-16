@@ -104,7 +104,7 @@ function addButton()
 }
 
 // setting the button in 10 sec after start so not ot interfare with roll20 initialization
-setTimeout(addButton, 10000)
+setTimeout(addButton, 10000);
 
 
     
