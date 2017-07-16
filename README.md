@@ -94,4 +94,3 @@ Whenever the button is clicked, the script communicates with Roll20 application 
 
 A user may choose a card deck to which new cards will be added and a filter (regular) expression to sort out which images should be picked from the Library.
 
-
