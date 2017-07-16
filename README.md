@@ -6,15 +6,23 @@ Roll20 Deck Creator is a small JavaScript browser extension that automates creat
 
 Roll20 Deck Creator automatically fills an existing deck with new cards. Images of these new cards are imported from My Library. Deck cards are created automatically with no need to create and upload every single card.
 
+It works on Firefox or Chrome browser.
+
 ## Why?
 
-There is no automated way to batch upload, or create cards for decks in Roll20. Every card has to be created and uploaded manually. That is okay for decks of 10-20 cards but a total overkill for 100+ cards.
+There is no automated way to batch upload, or create cards for decks in Roll20. Every card has to be created and uploaded manually. That is okay for decks of 10-20 cards but a total overkill for 100+ cards. 
+I found a way how to automate the process for myself, and then realized that it may be of use to anyone else stuck with Roll20 uploading cards.
 
-## Prerequisites
 
-Firefox or Chrome browser.
+## How it works
 
-## How to install
+Roll20 Deck Creator is a small extension to your browser. The extension loads a little additional script when Roll20 page is loaded adding a new button to the page.
+
+Whenever the button is clicked, the script communicates with Roll20 application (via internal undocumented API that is, unfortunately, subject to changes by the Roll20 dev team) to load image data from the Library and create new cards based on the data.
+
+A user may choose a card deck to which new cards will be added and a filter (regular) expression to sort out which images should be picked from the Library.
+
+## Guide: How to install
 
 ### Firefox
 
@@ -60,7 +68,7 @@ Firefox or Chrome browser.
 
 ![](https://github.com/feoff3/roll20-deck-creator/blob/master/image015.png?raw=true)
 
-## How to use
+## Guide: How to use
 
 1. After installation step is done, login to Roll20. Join your game as GM.
 
@@ -86,11 +94,4 @@ It will filter all images that file names start with &quot;prefix&quot; (or any 
 
 8. Voila! Check your newly created deck for the new cards.
 
-## How it works
-
-Roll20 Deck Creator is a small extension to your browser. The extension loads a little additional script when Roll20 page is loaded adding a new button to the page.
-
-Whenever the button is clicked, the script communicates with Roll20 application (via internal undocumented API that is, unfortunately, subject to changes by the Roll20 dev team) to load image data from the Library and create new cards based on the data.
-
-A user may choose a card deck to which new cards will be added and a filter (regular) expression to sort out which images should be picked from the Library.
 
