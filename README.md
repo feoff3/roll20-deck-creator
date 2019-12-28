@@ -26,37 +26,11 @@ As far as I figured it out, the similar stuff may be done via API, no need to ha
 
 ## Guide: How to install
 
-### Firefox
+### Chrome & Firefox
 
-1. Install GreaseMonkey add-on [https://addons.mozilla.org/ru/firefox/addon/greasemonkey/](https://addons.mozilla.org/ru/firefox/addon/greasemonkey/)
+1. Install TemperMonkey [Chrome Extension](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) , [Firefox](https://addons.mozilla.org/ru/firefox/addon/tampermonkey/)
 
-2. The addon button should appear on the top right corner of the browser window.
-
- ![](https://github.com/feoff3/roll20-deck-creator/blob/master/image001.png?raw=true)
- 
-3. Enable the add-on by clicking the arrow button and clicking Enabled. The monkey face icon will shine.
-
- ![](https://github.com/feoff3/roll20-deck-creator/blob/master/image003.png?raw=true)
-
-4. Click &quot;New User Script…&quot;
-
- ![](https://github.com/feoff3/roll20-deck-creator/blob/master/image005.png?raw=true)
-
-5. The &quot;New User Script…&quot; window will appear. Enter &quot;Roll20 Deck Creator&quot; in Name field, &quot;roll20&quot; in Namespace field, and replace any data in &quot;Includes (One per line)&quot; field with [https://app.roll20.net/editor/](https://app.roll20.net/editor/) (see the screenshot below). Click OK.
-
-![](https://github.com/feoff3/roll20-deck-creator/blob/master/image007.png?raw=true)
-
-6. The add-on will open the editor window with a sample script pre-loaded. Replace it with a Deck Creator script from [https://github.com/feoff3/roll20-deck-creator/blob/master/deck-creator.js](https://github.com/feoff3/roll20-deck-creator/blob/master/deck-creator.js)
-
-7. Click Save.
-
-![](https://github.com/feoff3/roll20-deck-creator/blob/master/image009.png?raw=true)
-
-### Chrome
-
-1. Install TemperMonkey extension [https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-
-2. The extension button should appear on the top right corner of the browser window.
+2. The extension button should appear on the top right corner of the browser window like (note: the appearance may change in future versions of extension)
 
 ![](https://github.com/feoff3/roll20-deck-creator/blob/master/image011.png?raw=true)
 
