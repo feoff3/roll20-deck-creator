@@ -76,7 +76,7 @@ function addButton()
     zNode.innerHTML = '<button id="myDeckButton" type="button">'
                     + 'Create Cards from Library Images</button>' 
                     + '  Deck: <select id="myDeckList"></select>'
-                    + '  Image RegExp: <input type="text" name="lname" id="myImageRegExpInput" value="*">'
+                    + '  Image RegExp: <input type="text" name="lname" id="myImageRegExpInput" value=".*">'
                     ;
     zNode.setAttribute ('id', 'myContainer');
     zNode.style.position = "absolute";
